@@ -11,8 +11,12 @@ message Message {
         FETCH_CERT_ACK = 4;
         FETCH_BLOCK_SIGN = 5;
         FETCH_BLOCK_SIGN_ACK = 6;
+        ASK_PIER_MASTER = 7;
+        REPLY_PIER_MASTER = 8;
     }
     Type type = 1;
     bytes Data = 2;
     bytes Version = 3;
 }
+
+
